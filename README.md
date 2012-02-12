@@ -30,7 +30,7 @@ Obtain the url to your git repository.
 ```pip install -r requirements.txt```
 
 ### Configure project ###
-```cp {{ project_name }}/__local_settings.py {{ project_name }}/local_settings.py```
+```cp {{ project_name }}/example_local_settings.py {{ project_name }}/local_settings.py```
 
 ```vi {{ project_name }}/local_settings.py```
 

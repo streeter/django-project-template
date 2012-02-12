@@ -3,7 +3,7 @@ from {{ project_name }}.conf.dev import *
 # See the above file for various settings which you shouldn't need to modify :)
 # Adjust them by placing the new values in this file
 
-SECRET_KEY = '{{ secret_key }}'
+SECRET_KEY = ''
 
 # Example setting one
 DEBUG = True

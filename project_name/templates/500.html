@@ -1,1 +1,10 @@
-<h1>500 - Server Error</h1>
+{% extends "base-error.html" %}
+
+{% block title %}Error: Five Oh Oh{% endblock %}
+
+{% block header-title %}Error: Five Oh Oh{% endblock %}
+
+{% block maincontent %}
+<p>Sorry, but some sort of server error occured.</p>
+<p>Please try again later.</p>
+{% endblock %}
