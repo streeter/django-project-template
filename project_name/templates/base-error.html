@@ -1,9 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{% block title %}{% endblock %}</title>
-  <style>
+{% extends "base.html"}
+
+{% block head_content %}
+<style>
     ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
     ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
     html { padding: 30px 10px; font-size: 20px; line-height: 1.4; color: #737373; background: #f0f0f0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
@@ -24,23 +22,21 @@
     #goog-wm-sb:hover, #goog-wm-sb:focus { border-color: #aaa; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); background-color: #f8f8f8; }
     #goog-wm-qt:focus, #goog-wm-sb:focus { border-color: #105cb6; outline: 0; color: #222; }
     input::-moz-focus-inner { padding: 0; border: 0; }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>{% block header-title %}{% endblock %}</h1>
+</style>
+{% endblock %}
+
+{% block content %}
+    <h1>{% block header_title %}{% endblock %}</h1>
     {% block maincontent %}
-    <p>Sorry, but the page you were trying to view does not exist.</p>
-    <p>It looks like this was the result of either:</p>
-    <ul>
-      <li>a mistyped address</li>
-      <li>an out-of-date link</li>
-    </ul>
-    <script>
-      var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
-    </script>
-    <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+        <p>Sorry, but the page you were trying to view does not exist.</p>
+        <p>It looks like this was the result of either:</p>
+        <ul>
+            <li>a mistyped address</li>
+            <li>an out-of-date link</li>
+        </ul>
+        <script>
+            var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
+        </script>
+        <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
     {% endblock %}
-  </div>
-</body>
-</html>
+{% endblock %}

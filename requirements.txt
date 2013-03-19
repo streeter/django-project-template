@@ -1,10 +1,20 @@
-Django>=1.4
-Fabric>=1.3
-South>=0.7.3
+# Core
+django-annoying>=0.7.7
+django-crispy-forms>=1.2.3
+django-extensions>=1.1.1
+django-model-utils>=1.2.0
+django-templatetag-sugar>=0.1
+Django>=1.5
+Fabric>=1.6
+pytz
+
+# Database
+South>=0.7.6
+
+# Development
 django-debug-toolbar>=0.9.4
 django-devserver>=0.3.1
-django-extensions>=0.7.1
-django-annoying>=0.7.6
-django-model-utils>=1.0.0
-django-templatetag-sugar>=0.1
-gunicorn>=0.13.4
+honcho>=0.3.1
+
+# Deployment
+gunicorn>=0.17.2
