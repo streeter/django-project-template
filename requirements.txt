@@ -6,15 +6,28 @@ django-model-utils>=1.2.0
 django-templatetag-sugar>=0.1
 Django>=1.5
 Fabric>=1.6
+py-bcrypt==0.3
 pytz
+requests>=1.1.0
 
 # Database
+psycopg2
 South>=0.7.6
 
 # Development
 django-debug-toolbar>=0.9.4
 django-devserver>=0.3.1
 honcho>=0.3.1
+sqlparse==0.1.6
 
 # Deployment
 gunicorn>=0.17.2
+
+# Testing
+exam
+flake8==1.4
+mock==1.0.1
+nose==1.2.1
+pep8==1.4
+pyflakes
+pylint==0.26.0
