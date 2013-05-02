@@ -4,7 +4,7 @@ django-crispy-forms>=1.2.3
 django-extensions>=1.1.1
 django-model-utils>=1.2.0
 django-templatetag-sugar>=0.1
-Django>=1.5
+Django>=1.5.1
 Fabric>=1.6
 py-bcrypt==0.3
 pytz
