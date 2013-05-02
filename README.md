@@ -1,7 +1,7 @@
 # {{ project_name|title }} Django Project #
 ## Prerequisites ##
 
-- python >= 2.5
+- python >= 2.6
 - pip
 - virtualenv/wrapper (optional)
 
@@ -11,12 +11,12 @@ Create a virtual python enviroment for the project.
 If you're not using virtualenv or virtualenvwrapper you may skip this step.
 
 #### For virtualenvwrapper ####
-```mkvirtualenv --no-site-packages {{ project_name }}-env```
+```mkvirtualenv --no-site-packages {{ project_name }}```
 
 #### For virtualenv ####
-```virtualenv --no-site-packages {{ project_name }}-env```
+```virtualenv --no-site-packages {{ project_name }}```
 
-```cd {{ project_name }}-env```
+```cd {{ project_name }}```
 
 ```source bin/activate```
 
