@@ -1,4 +1,4 @@
-from {{ project_name }}.conf.default import *
+from {{ project_name }}.settings.default import *
 import getpass
 
 
