@@ -1,33 +1,25 @@
 # Core
-django-annoying>=0.7.7
-django-crispy-forms>=1.2.3
-django-extensions>=1.1.1
-django-model-utils>=1.2.0
-django-templatetag-sugar>=0.1
-Django>=1.5.1
-Fabric>=1.6
-py-bcrypt==0.3
-pytz
-requests>=1.1.0
+django-crispy-forms==1.4.0
+django-extensions==1.5.1
+Django>=1.7,<1.8
+Fabric>=1.10.1
+py-bcrypt==0.4
+pytz==2014.10
+requests>=2.6.0
 
 # Database
-psycopg2
-South>=0.7.6
+psycopg2==2.6
 
 # Development
 django-debug-toolbar>=0.9.4
-django-devserver>=0.3.1
-honcho>=0.3.1
-sqlparse==0.1.6
+honcho>=0.6.6
 
 # Deployment
-gunicorn>=0.17.2
+gunicorn==19.3.0
 
 # Testing
-exam
-flake8==1.4
+flake8==2.4.0
 mock==1.0.1
-nose==1.2.1
-pep8==1.4
-pyflakes
-pylint==0.26.0
+pep8==1.6.2
+pyflakes==0.8.1
+pylint==1.4.3
